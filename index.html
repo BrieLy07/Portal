@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal de Servicios Grupo 7</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header, footer {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            flex: 1;
+            padding: 40px;
+            text-align: center;
+        }
+        .button-container {
+            margin-top: 30px;
+        }
+        .service-button {
+            background-color: #28a745;
+            color: white;
+            padding: 15px 30px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .service-button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portal de Servicios en la Nube</h1>
+    </header>
+    <main>
+        <p>Selecciona un servicio para acceder:</p>
+        <div class="button-container">
+            <button class="service-button" onclick="window.location.href='https://tu-url-digitalocean.com'">Digital Ocean</button>
+            <button class="service-button" onclick="window.location.href='https://tu-url-heroku.com'">Heroku</button>
+            <button class="service-button" onclick="window.location.href='https://verce-gabriel-mendozas-projects-03602a5d.vercel.app/'">Vercel</button>
+            <button class="service-button" onclick="window.location.href='https://tu-url-railway.com'">Railway</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 - UCE Grupo 7</p>
+    </footer>
+</body>
+</html>
